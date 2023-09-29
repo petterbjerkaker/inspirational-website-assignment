@@ -16,7 +16,6 @@ html {
 	line-height:1.5;
 	padding:20px;
 	
-	
 }
 
 .grid__column-2 {
@@ -27,6 +26,15 @@ html {
 	padding:10px;
 	overflow:hidden;
 
+}
+
+.grid__column-2-image2 {
+	font-family: var(--font-family-primary);
+	font-size: 0.5rem;
+	grid-column:3/6;
+	background-color: lightgreen;
+	padding:10px;
+	overflow:hidden;
 }
 
 
