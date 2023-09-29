@@ -48,7 +48,26 @@ html {
 	overflow:hidden;
 }
 
+
+.grid__column-3-image2 {
+	font-family: var(--font-family-primary);
+	font-size: 0.5rem;
+	grid-column:6/9;
+	background-color:aqua;
+	padding:5px;
+	overflow:hidden;
+}
+
 .grid__column-4 {
+	font-family: var(--font-family-primary);
+	font-size: 0.5rem;
+	grid-column:9/12;
+	background-color:lightpink;
+	padding:10px;
+	overflow:hidden;
+}
+
+.grid__column-4-image2 {
 	font-family: var(--font-family-primary);
 	font-size: 0.5rem;
 	grid-column:9/12;
