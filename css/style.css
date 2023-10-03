@@ -13,15 +13,22 @@ header {
 
 .grid__column-1 {
 	font-family: var(--font-family-primary);
-	font-size: 0.4rem;
+	font-size: 0.5rem;
 	grid-column: 1/3;
 	background-color:lightgrey;
 	border:2px solid black;
 	border-radius:8px;
 	line-height:1.5;
 	padding:20px;
-	
+	align-items:center;
+
 }
+
+.grid__column-1 li {
+	align-items:center;
+	list-style-type:none;
+}
+
 
 .grid__column-2 {
 	font-family: var(--font-family-primary);
